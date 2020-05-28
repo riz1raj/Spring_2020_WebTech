@@ -1,0 +1,27 @@
+<informations>
+ <information>
+ <id>1</id>
+ <name>John Doe</name>
+ <address> <flat> </flat> <house> </house> <road> </road> <area> </area> <district> </district> </address>
+ <department> Sales</department>
+ <salary> 20000</salary>
+ </information>
+ 
+ <information>
+ <id>2</id>
+ <name>Mark Zukerberg</name>
+ <address> <flat> </flat> <house> </house> <road> </road> <area> </area> <district> </district> </address>
+ <department> Accounts</department>
+ <salary>12000 </salary>
+ </information>
+ 
+ <information>
+ <id>1</id>
+ <name>Ala Voski</name>
+ <address> <flat> </flat> <house> </house> <road> </road> <area> </area> <district> </district> </address>
+ <department> Human Resource</department>
+ <salary>30000 </salary>
+ </information>
+ 
+ 
+</informations>
