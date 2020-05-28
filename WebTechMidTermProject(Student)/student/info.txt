@@ -1,0 +1,4 @@
+4444|mmmmmm|Rizowan Ahmed|rizowanahmedraj@gmail.com|11998-02-12|male|o+|science
+7777|kkkkkk|Password |rizowanaedraj@gmail.com|1988-02-14|female|b+|arts
+12345|m1m1m1|pppppppppppp|rizowanahmedraj@gmail.com|2222-02-14|female|a+|arts
+4455|mmmmmm|admin|rizowanahmedraj@gmail.com|1998-02-22|male|b+|science
