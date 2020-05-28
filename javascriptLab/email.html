@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+	<script type="text/javascript" src="validation.js"></script>
+	<style type="text/css">
+		div {
+			color: red;
+		}
+	</style>
+</head>
+<body>
+	<div id="error" style="color: black; font-weight: bold; font-size: large;">
+		
+	</div>
+	<fieldset>
+	    <legend><b>REGISTRATION</b></legend>
+		<form>
+			<br/>
+			<table width="100%" >
+				
+				<tr>
+					<td>Email</td>
+					<td>:</td>
+					<td>
+						<input name="email" type="text" id="2" onkeyup="validateEmail()">
+						<abbr title="hint: sample@example.com"><b>i</b></abbr>
+						<div id="eemail"> </div>
+					</td>
+					<td></td>
+				</tr>		
+				
+			</table>
+			<input type="button" name="Submit" value="Submit" onclick="submitData()">
+			
+		</form>
+	</fieldset>
+
+</body>
+</html>

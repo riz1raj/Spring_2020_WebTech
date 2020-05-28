@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blood</title>
+	<script type="text/javascript" src="validation.js"></script>
+	
+	</style>
+</head>
+<body>
+	<div id="error" style="color: black; font-weight: bold; font-size: large;">
+		
+	</div>
+	<fieldset>
+	    <legend><b>Blood</b></legend>
+		<form>
+			<br/>
+			<table width="100%" cellpadding="0" cellspacing="0">
+				
+				<tr>
+					<td>Blood Group</td>
+					<td>:</td>
+					<td>
+						<select name="bloodGrp" id="9" onchange="validateBloodGrp()">
+							<option value="">Select Blood Group</option>
+							<option value="A+">A+</option>
+							<option value="A-">A-</option>
+							<option value="B+">B+</option>
+							<option value="B-">B-</option>
+							<option value="O+">O+</option>
+							<option value="O-">O-</option>
+							<option value="AB+">AB+</option>
+							<option value="AB-">AB-</option>
+						</select>
+						<div id="ebg"> </div>
+					</td>
+					<td></td>
+				</tr>
+				
+			</table>
+			<input type="button" name="Submit" value="Submit" onclick="submitData()">
+			
+		</form>
+	</fieldset>
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Name</title>
+	<script type="text/javascript" src="validation.js"></script>
+	
+		
+	</style>
+</head>
+<body>
+	<div id="error" style="color: black; font-weight: bold; font-size: large;">
+		
+	</div>
+	<fieldset>
+	    
+		<form>
+			<br/>
+			<table width="100%" >
+				<tr>
+					<td>Name</td>
+					<td>:</td>
+					<td>
+						<input name="name" type="text" id="1" onkeyup="validateName()">
+						<abbr title="hint: Name contains letters or dot(.) or dash(-) and name has at least two words"><b>i</b></abbr>
+						<div id="ename"> </div>
+					</td>
+					
+				</tr>		
+				
+				
+			</table>
+			<input type="button" name="Submit" value="Submit" onclick="submitData()">
+		
+		</form>
+	</fieldset>
+
+</body>
+</html>
